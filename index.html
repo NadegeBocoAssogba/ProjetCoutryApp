@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="haut">
+        <input type="search" name="Rechercher" id="rechercher" placeholder="Rechercher">
+        <div class="divrange">
+            <input type="range" id="range" value="24" min="0" max="250">
+            <div class="value">24</div>
+        </div>
+        <div class="boutons">
+            <button class="croiss">Tri croissant</button>
+            <button class="decroiss">Tri décroissant</button>
+            <button class="alpha">Tri alphabétique</button>
+        </div>
+    </div>
+    <div id="liste"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
